@@ -7,7 +7,8 @@
         <entry key="app/src/main/res/drawable/vector.xml" value="0.3575" />
         <entry key="app/src/main/res/font/roboto.xml" value="0.25763888888888886" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/activity_second.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_second.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.1" />
       </map>
     </option>
   </component>

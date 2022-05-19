@@ -44,6 +44,15 @@ class SecondActivity : Activity() {
             val intent = Intent(this@SecondActivity, MainActivity::class.java)
             startActivity(intent)
         }
+
+        val dotsMenu: View = findViewById(R.id.dots_menu)
+
+        dotsMenu.setOnClickListener {
+            val popupMenu = androidx.appcompat.widget.PopupMenu(this, dotsMenu)
+
+            popupMenu.inflate(R.menu.menu)
+            popupMenu.show()
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
